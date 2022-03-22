@@ -1,0 +1,33 @@
+
+
+.sidebar__link-list li {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    
+}
+.sidebar__link-list a{
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: lighter;
+}
+
+.sidebar__link-list a:hover {
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: 400;
+    transition: 0.2ms ease-in;
+}
+
+.sidebar__link-list__span {
+    color: var(--color-orange);
+    font-size: x-small;
+    font-weight: bold;
+}
+
+.sidebar__link-list__smart {
+    text-transform: uppercase;
+    padding: 0.3rem 0 1.5rem 2rem;
+    font-size: small;
+    cursor: pointer;
+}

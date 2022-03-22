@@ -1,0 +1,20 @@
+
+.product__details-title{
+    padding-left: 20px;
+}
+
+.product__details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product__details-list {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.product__details-list img{
+    max-width: 200px;
+    min-height: 200px;
+}

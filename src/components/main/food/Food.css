@@ -1,0 +1,61 @@
+
+
+.food__carosaul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.food__carosaul-list {
+    padding: 10px;
+}
+
+.food__carosaul-list h4 {
+    color: var(--color-bg);
+    height: 100px;
+    width: 165px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 65px;
+    text-transform: uppercase;
+    border-radius: 80%;
+    flex-wrap: wrap;
+    transition: 0.5s ease-in-out;
+   
+}
+
+.food__carosaul-list h4:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in;
+}
+
+.food__button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-blue);
+    border: 0;
+    color: var(--color-bg);
+    padding: 15px;
+    border-radius: 20px;
+    width: 120px;
+    font-family: var(--font-base);
+    margin-left: 45%;
+}
+
+.food__carosaul-list-change {
+    padding: 10px;
+}
+
+.food__carosaul-list-change h4 {
+    color: var(--color-bg);
+    height: 100px;
+    width: 165px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 65px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    border-radius: 80%;
+
+}

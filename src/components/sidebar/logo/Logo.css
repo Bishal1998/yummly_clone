@@ -1,0 +1,28 @@
+
+
+
+.sidebar__top-logo h2 {
+    font-family: var(--font-base);
+    text-align: left;
+    padding: 2rem 0 0 3rem;
+    color: var(--color-orange);
+    
+}
+
+.sidebar__top-logo__bottom-border {
+    margin: 0.5rem 4.5rem;
+    border-bottom: 3.5px solid var(--color-grey);
+    position: relative;
+    width: 35px;
+}
+
+.sidebar__top-button {
+    background-color: var(--color-blue);
+    border: 0;
+    padding: 1rem;
+    border-radius: 40px;
+    color: var(--color-bg);
+    font-weight: bold;
+    margin: 1.5rem 0 0.5rem 2rem;
+    cursor: pointer;
+}

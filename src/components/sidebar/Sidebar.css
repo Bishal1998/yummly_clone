@@ -1,0 +1,8 @@
+
+.sidebar {
+    width: 15%;
+    background-color: var(--color-bg);
+    display: grid;
+    justify-items: center;
+}
+
